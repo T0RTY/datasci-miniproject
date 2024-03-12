@@ -2,8 +2,8 @@
 # DataSci-MiniProject
 
 ## File
-File DataSet: sentiment140-subset.csv
-File Colab: 6410210311_miniproject.ipynb
+- **DataSet**: sentiment140-subset.csv
+- **Colab Notebook**: 6410210311_miniproject.ipynb
 
 ## คำอธิบายโปรเจค
 โปรเจคนี้เป็นการพัฒนาและประเมินโมเดลการวิเคราะห์อารมณ์ (Sentiment Analysis) โดยใช้ข้อมูลจากชุดข้อมูล Sentiment140 ซึ่งประกอบไปด้วยข้อความที่ผู้ใช้โพสต์บน Twitter พร้อมกับความรู้สึก (positive/negative) ที่เกี่ยวข้องกับข้อความนั้น โดยมีขั้นตอนการทำงานหลัก ๆ คือการเตรียมข้อมูล (Preparing Data) การเลือกโมเดล (Model Selection) การประเมินโมเดล (Model Evaluation) และการนำโมเดลไปใช้งาน (Deploy Model) โดยผ่านขั้นตอนการสร้างและประเมินโมเดลด้วย SVM, ANN, Naive Bayes, Logistic Regression, และ K-Nearest Neighbors (KNN) รวมถึงการบันทึกและใช้โมเดลที่ดีที่สุดสำหรับการทำนายความรู้สึกของข้อความใหม่ๆ
